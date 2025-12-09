@@ -100,7 +100,7 @@ php artisan test
 ## Postman Collection
 - A Postman collection should be included under `docs/postman_collection.json` (add yours if not present)
 - Import collection and set `{{base_url}}` (e.g., `http://127.0.0.1:8000`)
-- Use `{{jwt}}` in `Authorization: Bearer {{jwt}}` after login
+- Use `{{token}}` in `Authorization: Bearer {{token}}` after login and `{{url}}` for endpoints
 
 ## Notes & Assumptions
 - Mail sending on order confirmation is triggered (`OrderPaymentMail`) for demo purposes
