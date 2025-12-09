@@ -95,6 +95,7 @@ php artisan queue:work # for processing jobs (e.g., sending mails)
 ```bash
 php artisan test
 ```
+- Dont forget to setup `phpunit.xml` with test database
 
 ## Postman Collection
 - A Postman collection should be included under `docs/postman_collection.json` (add yours if not present)
